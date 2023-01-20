@@ -106,7 +106,7 @@ body {
 .search-icon svg {
   height: 2.5rem;
 }
-/* Hero Section conteror all the hero content */
+/* Hero Section container all the hero content */
 
 .hero-container {
   display: flex;
@@ -115,4 +115,13 @@ body {
   align-items: center;
   position: relative;
   width: 150rem;
+}
+/* Hero section Right conterer which conternt all the text */
+.hero-container-right {
+  display: flex;
+  gap: 6rem;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
