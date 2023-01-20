@@ -44,3 +44,65 @@ body {
   --main-font-family: "Orbitron", sans-serif;
   --sub-font-family: "Poppins", sans-serif;
 }
+/* styling the nav menu */
+
+.list {
+  display: flex;
+  gap: 3.5rem;
+  font-size: 1.8rem;
+  list-style-type: none;
+  font-family: var(--main-font-family);
+}
+
+.navbar-container div img {
+  height: 4.4rem;
+}
+
+/* styling and aliging the nav content */
+
+.navbar-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 30rem;
+  padding: 2.5rem 3rem 7rem 3rem;
+}
+
+/*putting the ACTIVE nav menu  */
+
+.list :nth-child(1) {
+  font-weight: 900;
+  position: relative;
+}
+
+.list :nth-child(1)::after {
+  content: "";
+  width: 4.8rem;
+  height: 0.2rem;
+  background-color: var(--dark-black);
+  position: absolute;
+  top: 2.3rem;
+  left: 0.5rem;
+  border-radius: 2rem;
+}
+
+/* creating the alignment insite between search icon and search Button field */
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+/* styling the NAV Button */
+
+.nav-button {
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #00000000;
+  border: 0.3rem solid;
+  border-radius: 1rem;
+  width: 17rem;
+}
+
+.search-icon svg {
+  height: 2.5rem;
+}
