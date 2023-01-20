@@ -140,3 +140,8 @@ body {
   text-align: center;
   color: var(--lite-black);
 }
+/* targeting hero image and resizing */
+img[alt="person-hero-iamge"] {
+  z-index: 10000;
+  width: 60vh;
+}
