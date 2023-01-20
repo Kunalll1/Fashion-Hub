@@ -116,7 +116,7 @@ body {
   position: relative;
   width: 150rem;
 }
-/* Hero section Right conterer which conternt all the text */
+/* Hero section Right container which contain all the text */
 .hero-container-right {
   display: flex;
   gap: 6rem;
