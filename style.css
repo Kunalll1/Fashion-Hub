@@ -219,3 +219,14 @@ span.star {
   color: var(--lite-black);
   text-align: center;
 }
+/* icon of social midea */
+
+.icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+/* resiging the icon */
+.icons img {
+  height: 4vh;
+}
