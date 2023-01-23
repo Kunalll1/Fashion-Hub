@@ -209,3 +209,13 @@ span.star {
   letter-spacing: 0.1rem;
   color: var(--white);
 }
+/* Icon text style */
+
+.contact-heading {
+  font-family: var(--sub-font-family);
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: var(--lite-black);
+  text-align: center;
+}
