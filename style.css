@@ -145,3 +145,11 @@ img[alt="person-hero-iamge"] {
   z-index: 10000;
   width: 60vh;
 }
+
+/* Squire share that is floting after the image */
+.square {
+  z-index: -1;
+  position: absolute;
+  top: 30rem;
+  left: 28.5rem;
+}
