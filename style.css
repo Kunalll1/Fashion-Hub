@@ -196,3 +196,16 @@ span.star {
   color: var(--lite-black);
   margin-right: 1rem;
 }
+/* Join Button styling */
+
+.button-join {
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #000000;
+  border: 0.2rem solid;
+  border-radius: 1rem;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: var(--white);
+}
