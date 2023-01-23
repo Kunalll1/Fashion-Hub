@@ -167,3 +167,17 @@ img[alt="person-hero-iamge"] {
 .globe img {
   width: 6vh;
 }
+/* star image stile */
+
+.star:nth-of-type(2) {
+  position: absolute;
+  top: 1rem;
+  right: 11rem;
+}
+span.star {
+  position: absolute;
+  top: 45rem;
+}
+.star img {
+  width: 6vh;
+}
