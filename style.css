@@ -153,3 +153,17 @@ img[alt="person-hero-iamge"] {
   top: 30rem;
   left: 28.5rem;
 }
+/* resiging the image of squire */
+.square img {
+  width: 40vh;
+}
+/* Adding style to globle */
+.globe {
+  position: absolute;
+  top: -4rem;
+  right: 64rem;
+}
+/* resizing the globe image */
+.globe img {
+  width: 6vh;
+}
